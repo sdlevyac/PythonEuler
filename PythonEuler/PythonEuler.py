@@ -9,4 +9,6 @@ def problem06():    return np.abs(sum([i**2 for i in range(1,101)]) - sum([i for
 def problem07():    return getPrimesUnder(int(120000))[10000]
 def problem08():    return max([product(input08[i:i+13]) for i in range(len(input08) - 12)])
 
-print(problem08())
+def problem10():    return sum(getPrimesUnder(2000000))
+
+print(problem10())

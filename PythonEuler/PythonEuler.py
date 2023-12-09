@@ -8,7 +8,7 @@ def problem05():    return lcmList(list(range(1,21)))
 def problem06():    return np.abs(sum([i**2 for i in range(1,101)]) - sum([i for i in range(1,101)]) ** 2)
 def problem07():    return getPrimesUnder(int(120000))[10000]
 def problem08():    return max([product(input08[i:i+13]) for i in range(len(input08) - 12)])
-
+def problem09():    return product(pythagTriplet(1000))
 def problem10():    return sum(getPrimesUnder(2000000))
 
-print(problem10())
+print(problem09())
